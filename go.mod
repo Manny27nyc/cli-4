@@ -24,9 +24,8 @@ require (
 	github.com/cloudfoundry/bosh-cli v5.5.1+incompatible
 	github.com/cloudfoundry/bosh-utils v0.0.0-20180315210917-c6a922e299b8 // indirect
 	github.com/cppforlife/go-patch v0.1.0 // indirect
-	github.com/cyphar/filepath-securejoin v0.2.1
-	github.com/docker/distribution v2.6.0-rc.1.0.20171109224904-e5b5e44386f7+incompatible
-	github.com/docker/docker v1.4.2-0.20171120205147-9de84a78d76e // indirect
+	github.com/cyphar/filepath-securejoin v0.2.4
+	github.com/docker/distribution v2.8.2-beta.1+incompatible
 	github.com/fatih/color v1.5.1-0.20170926111411-5df930a27be2
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
 	github.com/google/go-querystring v0.0.0-20170111101155-53e6ce116135
@@ -34,14 +33,13 @@ require (
 	github.com/kr/pty v1.1.1
 	github.com/lunixbochs/vtclean v1.0.0
 	github.com/mattn/go-colorable v0.1.0
-	github.com/mattn/go-isatty v0.0.3 // indirect
 	github.com/mattn/go-runewidth v0.0.5-0.20181218000649-703b5e6b11ae
 	github.com/maxbrunsfeld/counterfeiter/v6 v6.2.2
 	github.com/moby/moby v1.4.2-0.20171120205147-9de84a78d76e
 	github.com/nu7hatch/gouuid v0.0.0-20131221200532-179d4d0c4d8d
 	github.com/onsi/ginkgo v1.16.4
 	github.com/onsi/gomega v1.13.0
-	github.com/opencontainers/go-digest v1.0.0-rc1 // indirect
+	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/pkg/errors v0.9.1
 	github.com/sabhiram/go-gitignore v0.0.0-20171017070213-362f9845770f
 	github.com/sajari/fuzzy v1.0.0
@@ -49,15 +47,13 @@ require (
 	github.com/tedsuo/ifrit v0.0.0-20191009134036-9a97d0632f00 // indirect
 	github.com/tedsuo/rata v1.0.1-0.20170830210128-07d200713958
 	github.com/vito/go-interact v0.0.0-20171111012221-fa338ed9e9ec
-	golang.org/x/crypto v0.0.0-20210711020723-a769d52b0f97
-	golang.org/x/net v0.0.0-20211013171255-e13a2654a71e
-	golang.org/x/sys v0.0.0-20211013075003-97ac67df715c // indirect
-	golang.org/x/text v0.3.7
-	golang.org/x/tools v0.1.6-0.20210908190839-cf92b39a962c // indirect
-	google.golang.org/genproto v0.0.0-20211013025323-ce878158c4d4 // indirect
-	google.golang.org/grpc v1.41.0 // indirect
+	golang.org/x/crypto v0.17.0
+	golang.org/x/net v0.10.0
+	golang.org/x/text v0.14.0
+	google.golang.org/grpc v1.56.3 // indirect
 	gopkg.in/cheggaaa/pb.v1 v1.0.28
 	gopkg.in/yaml.v2 v2.4.0
+	k8s.io/apimachinery v0.22.2
 	k8s.io/client-go v0.22.2
 )
 
